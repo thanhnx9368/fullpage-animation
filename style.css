@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#fullpage {
+  width: 100%;
+}
+.s1 {
+  background-image: url("./img/couch.jpg");
+  background-size: cover;
+}
+
+.s2 {
+  background: linear-gradient(to left top, rgb(189, 193, 199), white);
+}
+
+.section {
+  position: relative;
+}
+.text-primary {
+  position: absolute;
+  font-size: 64px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+  background: linear-gradient(to left, #87c7df, #648896);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.chair {
+  height: 60%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description {
+  width: 50%;
+  padding-left: 5%;
+  font-size: 20px;
+}
+.description p {
+  margin: 50px 0px;
+}
