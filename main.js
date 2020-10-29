@@ -26,3 +26,24 @@ new fullpage("#fullpage", {
     }
   },
 });
+
+
+// new hoverEffect({
+//   parent: document.querySelector('.pictures'),
+//   intensity: 0.2,
+//   image1: './img/ha-noi.jpg',
+//   image2: './img/ha-noi-1.jpg',
+//   image3: './img/ha-noi-2.jpg',
+//   displacementImage: './img/fluid.jpg'
+// })
+const img = new Image();
+img.crossOrigin = "anonymous";
+var myAnimation = new hoverEffect({
+        parent: document.querySelector('.pictures'),
+        intensity: 0.3,
+        image1: './img/ha-noi.jpg',
+        image2: './img/ha-noi-1.jpg',
+        displacementImage: './img/fluid.jpg'
+});
+
+console.log('13')

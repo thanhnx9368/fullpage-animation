@@ -22,7 +22,7 @@
 .text-primary {
   position: absolute;
   font-size: 64px;
-  top: 10%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -15%);
   background: linear-gradient(to left, #87c7df, #648896);
@@ -46,3 +46,32 @@
 .description p {
   margin: 50px 0px;
 }
+
+.s3 {
+  background: linear-gradient(to right top, rgb(189, 193, 100), white);
+}
+.pictures {
+  /* position: absolute;
+  top: 15%;
+  left: 0; */
+  padding-top: 15%;
+  width: 560px;
+  height: 560px;
+}
+
+.pictures > canvas {
+  border-radius: 50%;
+}
+
+.s3 .description h3 {
+  padding-top: 20px;
+  font-size: 50px;
+  color: rgb(100, 77, 77);
+}
+
+/* .fp-tableCell {
+  height: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+} */
